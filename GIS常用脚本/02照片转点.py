@@ -168,20 +168,20 @@ if __name__=='__main__':
     overwrite=True
     #照片所在文件夹
     ##iOS系统heic文件所在文件夹，如果是安卓系统，设置为None
-    # heic_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20220815安亭项目\范现状调研\heic0923"
-    # heic_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20230109安亭调研\安亭调研0109原图\iCloud 照片"
+    # heic_path=r"D:\现状调研\heic0923"
+    # heic_path=r"D:\iCloud 照片"
     heic_path = None
     ##iOS系统和安卓系统jpeg文件所在文件夹，安卓系统不能用微信导出，只能用数据线复制粘贴
-    # jpeg_path=r"Y:\07、金山区吕巷镇土整\现状调研\8.2324调研--李\村庄"
-    # jpeg_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20220815安亭项目\范现状调研\jpeg0923"
-    # jpeg_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20230109安亭调研\安亭调研0109压缩\iCloud 照片"
-    jpeg_path=r"Y:\08、嘉定华亭全域土整\现状调研照片"
+    # jpeg_path=r"Y:\村庄"
+    # jpeg_path=r"D:\jpeg0923"
+    # jpeg_path=r"D:\iCloud 照片"
+    jpeg_path=r"Y:\现状调研照片"
     #保存点要素的数据库
-    # db_path=r"D:\Users\GJSJY\My Document\0--范德强--0\实用工具\处理照片坐标\测试用数据库.gdb"
-    # db_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20220815安亭项目\调研图片转点.gdb"
-    db_path=r"Y:\08、嘉定华亭全域土整\现状调研照片点位集合.gdb"
+    # db_path=r"D:\测试用数据库.gdb"
+    # db_path=r"D:\调研图片转点.gdb"
+    db_path=r"Y:\现状调研照片点位集合.gdb"
     #点坐标的保存路径，默认是在当前文件夹
-    excel_path=r"Y:\08、嘉定华亭全域土整\调研坐标点带朝向.xls"
+    excel_path=r"Y:\\调研坐标点带朝向.xls"
     #点要素的名称
     point_name="调研坐标点带朝向"
 
