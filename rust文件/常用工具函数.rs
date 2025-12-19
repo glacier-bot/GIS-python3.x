@@ -1,3 +1,9 @@
+/// 通用版本std::convert::identity 函数
+fn identity<T>(x: T) -> T 
+{ 
+    x 
+}
+
 /// 接受一个可调用对象（函数/闭包），但不执行它，直接返回该可调用对象
 fn skip<F, R>(f: F) -> F
 where
