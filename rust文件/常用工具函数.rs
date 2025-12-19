@@ -5,3 +5,18 @@ where
 {
     f
 }
+
+/// 含2个参数版本，n个参数可以依此类推
+fn skip_with_one_arg<F, A, R>(f: F) -> F
+where
+    F: Fn(A) -> R,
+{
+    f
+}
+
+/// 宏版本，不进行类型检查，但是更灵活
+macro_rules! skip {
+    ($f:expr) => {
+        $f
+    };
+}
