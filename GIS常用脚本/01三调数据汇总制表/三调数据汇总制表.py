@@ -49,11 +49,9 @@ def main(input_path,output_path,field):
 if __name__=="__main__":
     print("开始")
     #输入属性表
-    # input_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20220815金山吕巷\图表导出\吕巷三调交减量化地块1518.txt"
-    input_path=r"D:\Users\GJSJY\Desktop\20240108城中村补划\图表导出\NG_SI_LAND_USE_Clip整理区范围.txt"
-    # input_path=r"D:\Users\GJSJY\My Document\0--范德强--0\20221014安亭土地整治规划各版本文件\图表导出\统计用\城市开发边界外三调.txt"
+    input_path=r"D:\NG_SI_LAND_USE_Clip整理区范围.txt"
     #输入输出位置和名称
-    output_path=r"D:\Users\GJSJY\Desktop\20240108城中村补划\图表导出\NG_SI_LAND_USE_Clip整理区范围.xlsx"
+    output_path=r"D:\NG_SI_LAND_USE_Clip整理区范围.xlsx"
     #输入三调字段名称
     field="LAND_USE_GB"
 
