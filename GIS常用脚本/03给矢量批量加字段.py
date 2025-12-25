@@ -1,6 +1,6 @@
 import arcpy
 
-arcpy.env.workspace =r"D:\Users\GJSJY\My Document\0--范德强--0\20230103廊下试点入库\加字段后廊下土整试点.gdb"
+arcpy.env.workspace =r"D:\试点.gdb"
 
 print("开始")
 database="CZGHTB"
