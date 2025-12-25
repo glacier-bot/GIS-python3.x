@@ -47,7 +47,6 @@ def pdf_to_excel(pdf_path,save_path):
     print('PDF转换完毕')
 
 if __name__ == '__main__':
-    # pdf_path=r"D:/Users/GJSJY/Desktop/测试输入.pdf"
-    pdf_path=r"D:\Users\GJSJY\Desktop\全域矢量数据.pdf"
-    save_path=r"D:\Users\GJSJY\Desktop\全域矢量数据.xls"
+    pdf_path=r"D:\全域矢量数据.pdf"
+    save_path=r"D:\全域矢量数据.xls"
     pdf_to_excel(pdf_path,save_path)
