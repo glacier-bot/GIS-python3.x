@@ -39,7 +39,7 @@ def cmain(k,v,feature_fields,out_path):
         has_m="DISABLED",
         has_z="DISABLED",
         spatial_reference=arcpy.Describe(
-            r"D:\Users\GJSJY\Desktop\identity.gdb\DLTB"
+            r"D:\identity.gdb\DLTB"
         ).spatialReference
     )
     print("设置别名：",v)
@@ -48,8 +48,8 @@ def cmain(k,v,feature_fields,out_path):
     arcpy.management.AddFields(k,feature_fields[k])
 
 print("设置输出路径")
-#arcpy.env.workspace = r"D:\Users\GJSJY\Desktop\空库.gdb"
-out_path=r"D:\Users\GJSJY\Desktop\空库.gdb"
+#arcpy.env.workspace = r"D:\空库.gdb"
+out_path=r"D:\空库.gdb"
 
 print("开始建库")
 for k,v in feature_title.items():
